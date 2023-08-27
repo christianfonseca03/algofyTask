@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="/icon.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+   
+    <title>Algofy test</title>
+  </head>
+  <body>
+    <header id="header">
+      <img src="assets/logo.png" alt="logo" class="logo">
+      <img src="assets/menu-icon.png" alt="menu" class="menu" id="menu">
+      <nav id="nav">
+        <a href="#home" data-value="Home" class="cyberlink">Home</a>
+        <a href="#about" data-value="About" class="cyberlink">About</a>
+        <a href="#projects" data-value="Projects" class="cyberlink">Projects</a>
+        <a href="#contact" data-value="Contact" class="cyberlink">Contact</a>
+      </nav>
+    </header>
+    <main>
+      <section class="hero-section">
+        <h1 class="title" id="home">Christian Fonseca</h1>
+        <h2>The web developer your company needs!</h2>
+      </section>
+      <section class="about-section">
+        <div class="about-text">
+          <h1 id="about">About</h1>
+          <p>Hi, how are you doing? My name is Christian Fonseca and I am a web developer! I started working with programing in 2022 when I decided to study JavaScript and React.js. Since then I have been in love with this area and I am always looking for improvments in order to be a better developer.<span id="dots">..</span><span id="more"> I like to spend my free time going to the gym, playing sports, listening to music and reading. The last book I read is called “Discipline is Destiny” from Ryan Holiday, it talks about stoicism and I really recommend it for people interested in this topic cause it such a good read!</span></p>
+          <button id="btn">Read more</button>
+        </div>
+        <img src="assets/city2.jfif" alt="cyberpunk-city" class="cyber">  
+      </section>
+      <h1 class="project-title" id="projects">
+        Projects
+      </h1>
+      <section id="project-list">
+      </section>
+      <section class="contact-section">
+        <h1 id="contact">Contact</h1>
+        <form class="form">
+          <label for="name">Name</label>
+          <input type="text" name="name" id="name">
+          <label for="email">Email</label>
+          <input type="text" name="email" id="email">
+          <label for="message">Message</label>
+          <textarea name="message" id="message"></textarea>
+          <button type="submit">Submit</button>
+      </section>
+    </main>
+    <script src="main.js" type="module"></script>
+  </body>
+</html>

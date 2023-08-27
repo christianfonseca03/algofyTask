@@ -1,0 +1,20 @@
+[
+  {
+    "project-name": "CINEMA MOVIES",
+    "description": "A random movie picker made with React.js and TypeScript",
+    "link": "https://github.com/christianfonseca03/cinema-movies",
+    "image": "./assets/cinema_movies.jpeg"
+  },
+  {
+    "project-name": "SITE YUGIOH",
+    "description": "A yugioh website where you can search for cards, build a deck and look for card prices. Made with React.js and TypeScript",
+    "link": "https://github.com/christianfonseca03/site_yugioh",
+    "image": "./assets/site_yugioh.jfif"
+  },
+  {
+    "project-name": "WHELLER INTERIORES",
+    "description": "Portfolio website for a interior designer made with Next.js and TypeScript.",
+    "link": "https://github.com/christianfonseca03/Wheller_Interiores",
+    "image": "./assets/wheller_interiores.jpeg"
+  }
+]
