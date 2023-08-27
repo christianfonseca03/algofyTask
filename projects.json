@@ -15,6 +15,6 @@
     "project-name": "WHELLER INTERIORES",
     "description": "Portfolio website for a interior designer made with Next.js and TypeScript.",
     "link": "https://github.com/christianfonseca03/Wheller_Interiores",
-    "image": "assets/wheller_interiores.jpeg"
+    "image": "/wheller_interiores.jpeg"
   }
 ]
